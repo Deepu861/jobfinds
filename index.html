@@ -1,0 +1,93 @@
+<!-- This code shows the main page of the website.
+This page consists of login which is for both job seeker and company login,post a job,
+find the jobs,home,create your profile,application status -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <script>
+function myFunction() {
+  window.alert("you have to login first");
+}
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   <style>
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+body {
+  background-image: url("finds.jpg");
+  
+}
+</style>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Job finds</a>
+      </div>
+      <ul>
+        <li><a href="web.html" target="_self">Home</a></li>
+        <li><a href="#" target="_parent"  onclick="myFunction()">Find jobs</a></li>
+        <li><a href="#" onclick="myFunction()">Profile</a></li>
+        <li><a href="#" onclick="myFunction()">Post a job</a></li>
+        <li><div class="dropdown">
+            <button class="dropbtn">Login</button>
+            <div class="dropdown-content">
+            <a href="signin.html">Seeker</a>
+            <a href="complogin.html">Company</a>
+            </div></li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Find your dream job</div>
+    <div class="sub_title">search by skills  job with one click</div>
+   <div class="btns">
+      <button><a href="#" / onclick="myFunction()" >Create your profile</button>
+      <button><a href="#" / onclick="myFunction()" >Application status</button>
+    </div> 
+  </div>
+</body>
+</html>

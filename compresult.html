@@ -1,0 +1,101 @@
+<!-- This code shows the application status -->
+<html>
+<head>
+<title>Result</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<style>
+.img{
+  background:#EA738D;
+  background: linear-gradient(253.53deg, #EA738D 11.61%, rgba(137, 171, 227, 0) 87.83%);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 30px;
+}
+.center .btns button{
+  height: 200px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 30px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  background-image: url("profile.jgp");
+  color: black;
+  background:white;
+}
+.btns button:first-child:hover{
+  background:#B8E7E6;
+  color: black;
+}
+.center .btns button:last-child:hover{
+  background:#B8E7E6;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+<nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Job finds</a>
+      </div>
+      <ul>
+        <li><a href="aftercomplogin.html" target="_self">Home</a></li>
+
+      </ul>
+    </div>
+  </nav>
+<div class="img"></div>
+  <div class="center">
+    <div class="title">Your applicants</div>
+    <div class="sub_title">status</div>
+   <div class="btns">
+            <button><h6>name:bhargav<br>Experince:1 year<br>email:gh@gmail.com<br>phno:***</h6><a href="#" />Resume</button>
+            <button><h6>name:Sanju<br>Experince:0 year<br>email:sgh@gmail.com<br>phno:***</h6><a href="#" />Resume</button>
+            <button><h6>name:deepu<br>Experince:2 years<br>email:bgh@gmail.com<br>phno:***</h6><a href="#" />Resume</button>     
+    </div> 
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!-- This code shows the page for creating profile for job seeker.
+This page consists of feilds like profile pic,username,email id,phone number,dob,gender,upload your cv and submit button -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+         <script>
+function myFunction() {
+  window.alert("profile created Sucessfuly");
+}
+</script>
+	<link rel="stylesheet" type="text/css" href="styles4.css">
+</head>
+<body>
+	<center>
+		<div class="box">
+                        <img src="C:\Users\deepa\Pictures\Saved Pictures\index.jpg"></image>
+			<input type="file" name="" id="file" accept="image/*">
+			<br>
+			<label for="file">Edit Pic</label>
+			<br><br>
+			<input type="text" name="" placeholder="User Name">
+			<input type="email" name="" placeholder="Email Id">
+			<input type="text" name="" placeholder="Phone Number">
+			<input type="date" name="" placeholder="Date of Birth">
+			<input type="text" name="" placeholder="Gender">
+			<form>
+			   <h3>Upload CV</h3>
+            <input type="file" id="f" name="file" accept="file">
+			 <br><br>
+			<button type="submit" onclick="myFunction()">Submit </button>
+            </form>
+		</div>
+	</center>
+
+</body>
+</html>
